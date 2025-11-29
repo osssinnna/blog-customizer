@@ -31,3 +31,15 @@
 	justify-content: space-between;
 	margin-top: auto;
 }
+
+.panel {
+	position: relative;
+	z-index: 10;
+}
+
+.overlay {
+	position: fixed;
+	inset: 0;
+	z-index: 5;
+	background: transparent;
+}
